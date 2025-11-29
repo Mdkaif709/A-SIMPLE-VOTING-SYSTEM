@@ -357,7 +357,5 @@ if __name__ == "__main__":
     password_entry.bind('<Return>', on_enter_key)
 
     tk.Button(root, text="🔐 Login", width=20, font=("Arial", 12, "bold"), command=validate_login, bg='#3498db', fg='white', padx=10, pady=8, cursor='hand2').pack(pady=15)
-    tk.Label(root, text="Credentials: User1-User100 | Password: 1234", font=("Arial", 9), bg='#ecf0f1', fg='#95a5a6').pack(pady=5)
 
     root.mainloop()
-    
