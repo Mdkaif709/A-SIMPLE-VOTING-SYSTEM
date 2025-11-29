@@ -359,3 +359,4 @@ if __name__ == "__main__":
     tk.Button(root, text="🔐 Login", width=20, font=("Arial", 12, "bold"), command=validate_login, bg='#3498db', fg='white', padx=10, pady=8, cursor='hand2').pack(pady=15)
 
     root.mainloop()
+
